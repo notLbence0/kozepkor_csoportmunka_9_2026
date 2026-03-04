@@ -1,4 +1,4 @@
-Pap: A katolikus egyház szolgája, aki szentmisét celebrál, gyónást vesz, keresztelést és egyéb szentségeket ad.
+Pap:A katolikus egyház szolgája, aki szentmisét celebrál, gyónást vesz, keresztelést és egyéb szentségeket ad.
 
 Szerzetes: Valamilyen rend tagja (pl. bencés, domonkos, ferences), aki kolostorban él és vallásos életet folytat.
 
