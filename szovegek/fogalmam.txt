@@ -1,0 +1,9 @@
+Pap: A katolikus egyház szolgája, aki szentmisét celebrál, gyónást vesz, keresztelést és egyéb szentségeket ad.
+
+Szerzetes: Valamilyen rend tagja (pl. bencés, domonkos, ferences), aki kolostorban él és vallásos életet folytat.
+
+Püspök:  Egy adott egyházmegye vezetője, aki felügyeli a papokat és a hitéletet.
+
+Apát / Apáca:  Kolostor vezetője, férfi vagy női rend esetében.
+
+Kanonok Katedrálisoknál: szolgáló egyházi tisztviselő, gyakran oktatással és adminisztrációval foglalkozott.
