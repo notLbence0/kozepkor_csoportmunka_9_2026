@@ -35,5 +35,7 @@ nav{
 @media sreen and (max-width:600px){
     .fogalmak{
         width: 100%;
+        grid-template-columns: 1fr;
+        gap: 10px;
     }
 }
