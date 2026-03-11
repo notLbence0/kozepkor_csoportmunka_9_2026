@@ -1,13 +1,13 @@
 body {
 font-family: Georgia, serif;
 background-color: #f4f1ee;
-color: #3e2c1c;
+color: rgb(0, 0, 0);
 margin: 0;
 padding: 0;
 }
 
 header {
-background-color: #8a6141;
+background-color: rgb(153, 109, 70);
 color: white;
 text-align: center;
 padding: 20px;
@@ -23,7 +23,7 @@ box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 h2 {
-text-align: center;
+text-align: justify;
 }
 
 ol {
@@ -36,5 +36,5 @@ margin-bottom: 15px;
 }
 
 strong {
-color: #8b5e3c;
+color: #201811;
 }
