@@ -1,0 +1,16 @@
+main{
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(242, 247, 252);
+}
+header{
+   background-color: rgb(153, 109, 70); 
+   color: aliceblue;
+   text-align: center;
+   padding: 10px;
+    border-radius: 10px;
+}
+nav{
+   color: aliceblue; 
+}
