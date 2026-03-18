@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+#fokep{
+    width: 100%
+    
+}
+
+header{
+    justify-content: center;
+    text-align: center;
+
+}
+
+nav{
+    justify-content: center;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+    
+}
+
