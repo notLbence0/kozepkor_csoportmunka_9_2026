@@ -1,40 +1,81 @@
 body {
-font-family: Georgia, serif;
-background-color: #f4f1ee;
-color: rgb(0, 0, 0);
-margin: 0;
-padding: 0;
-}
-
-header {
-background-color: rgb(153, 109, 70);
-color: white;
-text-align: center;
-padding: 20px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(153, 109, 70);
 }
 
 main {
-max-width: 900px;
-margin: 20px auto;
-padding: 20px;
-background-color: #ffffff;
-border-radius: 8px;
-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 80%;
+    margin: auto;
+    background: rgb(153, 109, 70);
+    padding: 20px;
 }
 
-h2 {
-text-align: justify;
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(153, 109, 70);
+    color: rgb(153, 109, 70);
 }
 
-ol {
-font-size: 18px;
-line-height: 1.6;
+nav {
+    text-align: center;
+    margin: 20px 0;
 }
 
-li {
-margin-bottom: 15px;
+nav a {
+    text-decoration: none;
+    color: rgb(153, 109, 70);
+    background-color: rgb(153, 109, 70);
+    padding: 10px 15px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
 }
 
-strong {
-color: #201811;
+nav a:hover {
+    background-color: rgb(153, 109, 70);
+}
+
+article h2 {
+    text-align: center;
+}
+
+.esemeny {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0;
+    padding: 15px;
+    background-color: rgb(153, 109, 70);
+    border-radius: 10px;
+}
+
+.esemeny div {
+    width: 60%;
+}
+
+.esemeny img {
+    width: 300px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .esemeny {
+        flex-direction: column;
+    }
+
+    .esemeny div,
+    .esemeny img {
+        width: 100%;
+    }
+
+    .esemeny img {
+        margin-top: 10px;
+    }
+}
+
+img{
+    width: 300px;
+    height: auto;
 }
