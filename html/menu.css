@@ -3,4 +3,17 @@ header{
     padding: 15px;
     background-color: #c1a87c; 
     border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(228, 191, 159);
+    padding: 10px 15px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
     margin-bottom: 10px;}
