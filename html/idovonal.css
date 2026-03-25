@@ -1,40 +1,21 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: rgb(153, 109, 70);
-}
 
-main {
-    width: 80%;
-    margin: auto;
-    background: rgb(153, 109, 70);
-    padding: 20px;
-}
 
-header {
-    text-align: center;
+#esemeny {
+   
     padding: 10px;
-    background-color: rgb(153, 109, 70);
+    text-align: justify;
+} 
+
+.kartya{
+     display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
     color: rgb(0, 0, 0);
-}
-
-nav {
-    text-align: center;
-    margin: 20px 0;
-}
-
-nav a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    background-color: rgb(228, 191, 159);
-    padding: 10px 15px;
-    margin: 5px;
-    display: inline-block;
-    border-radius: 5px;
-}
-
-nav a:hover {
-    background-color: rgb(228, 191, 159);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-radius: 100px;
+    padding: 50px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
 }
 
 article h2 {
@@ -53,11 +34,13 @@ article h2 {
     height: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
 
     .esemeny div,
     .esemeny img {
         width: 100%;
+        grid-template-columns: 1fr;
+        gap: 10px;
     }
 
     .esemeny img {
@@ -65,15 +48,7 @@ article h2 {
     }
 }
 
-#pestis{
-    width: 300px;
-    height: auto;
-}
 
 h1{
     color: black;
-}
-
-.templom{
-   width: 60%;
 }
