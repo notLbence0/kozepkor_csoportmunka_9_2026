@@ -22,16 +22,8 @@ article h2 {
     text-align: center;
 }
 
-.esemeny {
-
-
 .esemeny div {
     width: 60%;
-}
-
-.esemeny img {
-    width: 300px;
-    height: auto;
 }
 
 @media (max-width: 600px) {
