@@ -1,0 +1,36 @@
+img {
+    width: 50%;
+    border: solid rgba(143, 12, 12, 0.473) 3px;
+}
+
+p {
+    border: solid rgba(143, 12, 12, 0.473) 3px;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+    border: solid rgba(143, 12, 12, 0.473) 3px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.jellemzoöltözkodes {
+    padding-top: 20px;
+}
+
+.elrendezes {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding: 20px;
+    margin: 20px;
+    border: solid rgba(143, 12, 12, 0.473) 3px;
+    gap: 5px;
+}
+
+article {
+    border: solid rgba(143, 12, 12, 0.473) 3px
+}
