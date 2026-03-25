@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <main>
+  <main id="teteje">
 
     <header class="focimkep">
       <h1>Idővonal</h1>
@@ -27,54 +27,66 @@
       <h2>Középkor fontos eseményei</h2>
     </article>
 
-    <article id="esemeny">
-      <div class="kartya">
-        <img src="../kepek/birodalom bukas.png" alt="Nyugat-Római-bukás" />
-        <div>
-          <h2>476 – A Nyugat-Római Birodalom bukása</h2>
-          <p>
-            Odoaker germán vezér letaszította a trónról az utolsó nyugat-római
-            császárt, Romulus Augustulust. Ez az esemény hagyományosan az ókor
-            végét és a középkor kezdetét jelöli.
-          </p>
+    <article>
+
+      <div class="esemeny" id="bukas"> 
+        <a href="#teteje">⬆️</a>
+        <div class="kartya">
+          <img src="../kepek/birodalom bukas.png" alt="Nyugat-Római-bukás" />
+          <div>
+            <h2>476 – A Nyugat-Római Birodalom bukása</h2>
+            <p>
+              Odoaker germán vezér letaszította a trónról az utolsó nyugat-római
+              császárt, Romulus Augustulust. Ez az esemény hagyományosan az ókor
+              végét és a középkor kezdetét jelöli.
+            </p>
+          </div>
         </div>
+
+        <a href="#karoly">⬇️</a>
       </div>
 
-        <div class="kartya">
-          
-          <img src="../kepek/Nagy Karoly.jpg" alt="Károly" />
-          <div id="szoveg">
-            <h2>800 – Nagy Károly császárrá koronázása</h2>
-            <p>
+  <div class="esemeny" id="karoly">
+      <a href="#bukas">⬆️</a>
+      <div class="kartya"> 
+
+        <img src="../kepek/Nagy Karoly.jpg" alt="Károly" />
+        <div id="szoveg">
+          <h2>800 – Nagy Károly császárrá koronázása</h2>
+          <p>
             A frank uralkodót III. Leó pápa koronázta császárrá Rómában, ami
             megalapozta a Frank Birodalmat, és új hatalmi egyensúlyt hozott
             létre Európában, megerősítve a pápaság és a frankok szövetségét.
           </p>
-          
-        </div>
-          
-          
-        </div>
 
-        <div class="kartya">
-            <img src="../kepek/egyhaz szakadas.png" alt="egyházszakadás" />
-            <div id="szoveg">
-                <h2>1054 – A nagy egyházszakadás</h2>
-                <p>
-                1054. július 16-án következett be a nagy egyházszakadás (skizma),
-                amikor Humbert bíboros a konstantinápolyi Hagia Sophia oltárára
-                helyezte a pátriárkát kiközösítő bullát. A keleti egyház válaszul
-                szintén kiközösítéssel felelt, így a kereszténység véglegesen
-                nyugati (római katolikus) és keleti (ortodox) részre szakadt.
-                </p>
-            </div>
         </div>
+      </div>
+      <a href="#szakadas">⬇️</a>
+</div>
 
-        <div class="kartya">
-            <div>
-            <img id="pestis" src="../kepek/pottyos pestis.jpg" alt="Pöttyös Pestis">
-            </div>
-            <div id="szoveg">
+      </div>
+
+      <div class="kartya" id="szakadas">
+        <a href="#karoly">⬆️</a>
+        <img src="../kepek/egyhaz szakadas.png" alt="egyházszakadás" />
+        <div id="szoveg">
+          <h2>1054 – A nagy egyházszakadás</h2>
+          <p>
+            1054. július 16-án következett be a nagy egyházszakadás (skizma),
+            amikor Humbert bíboros a konstantinápolyi Hagia Sophia oltárára
+            helyezte a pátriárkát kiközösítő bullát. A keleti egyház válaszul
+            szintén kiközösítéssel felelt, így a kereszténység véglegesen
+            nyugati (római katolikus) és keleti (ortodox) részre szakadt.
+          </p>
+        </div>
+        <a href="#">⬇️</a>
+      </div>
+
+      <div class="kartya">
+        <div>
+          <img id="pestis" src="../kepek/pottyos pestis.jpg" alt="Pöttyös Pestis">
+        </div>
+        <div id="szoveg">
           <h2>1347–1351 – A pestisjárvány Európában</h2>
           <p>
             A Fekete Halál néven ismert pestisjárvány végigsöpört Európán, és a
@@ -84,7 +96,8 @@
           </p>
         </div>
 
-      </article>
-    </main>
-  </body>
+    </article>
+  </main>
+</body>
+
 </html>
