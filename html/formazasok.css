@@ -19,3 +19,46 @@ nav{
     width: 100%
     
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(153, 109, 70);
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    background: rgb(153, 109, 70);
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(153, 109, 70);
+    color: rgb(0, 0, 0);
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(228, 191, 159);
+    padding: 10px 15px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: rgb(228, 191, 159);
+}
+
+article h2 {
+    text-align: center;
+}
