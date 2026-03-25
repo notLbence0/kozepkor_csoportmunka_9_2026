@@ -3,21 +3,30 @@
 }
 
 
-
 header{
     justify-content: center;
     text-align: center;
+    border: 10px;
+    border-radius: solid rgb(160, 23, 23);
 
 }
 
 nav{
     justify-content: center;
     text-align: center;
+    margin: 20px
 }
 
 a{
     text-decoration: none;
     color: brown;
-    
+    font-size: larger;
+    padding: 20px;
 }
+
+a:hover{
+    text-decoration: underline;
+}
+
+
 
