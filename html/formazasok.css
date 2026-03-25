@@ -23,13 +23,13 @@ nav{
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: rgb(153, 109, 70);
+    background-color: rgb(134, 108, 84);
 }
 
 main {
     width: 80%;
     margin: auto;
-    background: rgb(153, 109, 70);
+    background: rgb(173, 143, 116);
     padding: 20px;
 }
 
@@ -61,4 +61,9 @@ nav a:hover {
 
 article h2 {
     text-align: center;
+}
+
+.esemeny img {
+    width: 100%;
+    height: auto;
 }
