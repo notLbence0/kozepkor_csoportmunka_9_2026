@@ -5,6 +5,8 @@ img {
 
 p {
     border: solid rgba(228,191,159) 3px;
+    padding: 20px;
+    padding-top: 20px;
 }
 
 h2 {
@@ -14,7 +16,7 @@ h2 {
 
 h1 {
     text-align: center;
-    text-decoration: underline;
+    border-bottom: solid black 2px;
 }
 
 .jellemzoöltözkodes {
@@ -30,5 +32,6 @@ h1 {
 }
 
 article {
-    border: solid rgba(228,191,159) 3px
+    border: solid rgba(228,191,159) 3px;
+    padding-top: 20px;
 }
