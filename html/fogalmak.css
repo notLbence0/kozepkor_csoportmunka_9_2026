@@ -1,9 +1,5 @@
 
-
-nav{
-   color: rgb(253, 253, 253); 
-}
-.fogalmak{
+#fogalmak{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
