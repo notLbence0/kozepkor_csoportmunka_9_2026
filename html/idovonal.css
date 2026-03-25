@@ -42,7 +42,6 @@ article h2 {
 }
 
 .esemeny {
-    display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 30px 0;
@@ -61,9 +60,6 @@ article h2 {
 }
 
 @media (max-width: 768px) {
-    .esemeny {
-        flex-direction: column;
-    }
 
     .esemeny div,
     .esemeny img {
@@ -82,4 +78,8 @@ article h2 {
 
 h1{
     color: black;
+}
+
+.templom{
+   width: 60%;
 }
