@@ -1,17 +1,19 @@
 img {
-    width: 50%;
+    width: 70%;
     border: solid rgba(228,191,159) 3px;
+    border-radius: 5px;
 }
 
 p {
-    border: solid rgba(228,191,159) 3px;
     padding: 20px;
     padding-top: 20px;
+    border: solid rgba(228,191,159) 3px;
+    background-color: white;
+    border-radius: 5px;
 }
 
 h2 {
     padding: 20px;
-    border: solid rgba(228,191,159) 3px;
 }
 
 h1 {
@@ -29,6 +31,7 @@ h1 {
     padding: 20px;
     margin: 20px;
     border: solid rgba(228,191,159) 3px;
+    border-radius: 10px;
 }
 
 article {
