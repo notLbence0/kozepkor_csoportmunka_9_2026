@@ -1,16 +1,15 @@
 img {
     width: 50%;
-    border: solid rgba(143, 12, 12, 0.473) 3px;
+    border: solid rgba(228,191,159) 3px;
 }
 
 p {
-    border: solid rgba(143, 12, 12, 0.473) 3px;
-    text-align: center;
+    border: solid rgba(228,191,159) 3px;
 }
 
 h2 {
     padding: 20px;
-    border: solid rgba(143, 12, 12, 0.473) 3px;
+    border: solid rgba(228,191,159) 3px;
 }
 
 h1 {
@@ -24,13 +23,12 @@ h1 {
 
 .elrendezes {
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 2fr 3fr;
     padding: 20px;
     margin: 20px;
-    border: solid rgba(143, 12, 12, 0.473) 3px;
-    gap: 5px;
+    border: solid rgba(228,191,159) 3px;
 }
 
 article {
-    border: solid rgba(143, 12, 12, 0.473) 3px
+    border: solid rgba(228,191,159) 3px
 }
