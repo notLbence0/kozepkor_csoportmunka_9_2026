@@ -4,14 +4,13 @@ img {
 }
 
 p {
-    border: solid rgba(228,191,159) 3px;
     padding: 20px;
     padding-top: 20px;
+    border: solid rgba(228,191,159) 3px;
 }
 
 h2 {
     padding: 20px;
-    border: solid rgba(228,191,159) 3px;
 }
 
 h1 {
