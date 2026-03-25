@@ -42,13 +42,7 @@ article h2 {
 }
 
 .esemeny {
-    align-items: center;
-    justify-content: space-between;
-    margin: 30px 0;
-    padding: 15px;
-    background-color: rgb(228, 191, 159);
-    border-radius: 10px;
-}
+  
 
 .esemeny div {
     width: 60%;
