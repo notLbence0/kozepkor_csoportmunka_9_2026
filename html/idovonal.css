@@ -29,8 +29,8 @@ article h2 {
 
 @media (max-width: 600px) {
 
-    .esemeny div,
-    .esemeny img {
+    .esemeny div
+     {
         width: 100%;
         grid-template-columns: 1fr;
         gap: 10px;
