@@ -16,6 +16,7 @@
     border-radius: 100px;
     padding: 50px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    text-align: justify;
 }
 
 article h2 {
