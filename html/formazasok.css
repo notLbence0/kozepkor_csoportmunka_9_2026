@@ -1,4 +1,8 @@
+*{
+    box-sizing: border-box;
+}
 main{
+    font-family: ;
     width: 80%;
     max-width: 1000px;
     margin: auto;
